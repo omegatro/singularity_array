@@ -1,9 +1,9 @@
 # EDR
 
 ### Introduction
-- This repository serves as a registry for external dependencies (EDR) included in NMRL bioinformatics pipelines.
+- This repository serves as a registry for external dependencies (EDR) included in bioinformatics pipelines.
 - Anyone intending to add a tool to a pipeline or alter the state of an included tool should document the procedure in this repository by submitting a pull request.
-- The information in EDR is used for automatic building, testing, and deployment of images on compute resources running the NMRL pipelines, as well as the ground truth for tool version information in the data warehouse.
+- The information in EDR is used for automatic building, testing, and deployment of images on compute resources running the local pipelines, as well as the ground truth for tool version information in the data warehouse.
 
 ### Dependencies
 ```
