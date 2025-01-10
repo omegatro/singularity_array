@@ -1,0 +1,143 @@
+### Description
+# This file is used to capture state of external open-source dependencies,
+# which are used in NMRL bioinformatics pipelines as singularity image files.
+# For detailed use instructions see README.md file in this repository.
+
+### Example
+# tool_name: <my_tool_name>
+# tool_version: <my_tool_version>
+# tool_source: <e.g. a github repository>
+# tool_hash: <SHA256> OR NULL
+# tool_publication: NULL
+# image_reference: 
+#   <docker://repository/name:version> OR
+#   <conda_based> - created from conda definition file using inhouse-adopted procedure
+# db_hash: <SHA256> OR NULL
+# db_ref: <link_to_db_file(s)> OR NULL
+
+# Description
+# This file is used to capture the state of external open-source dependencies,
+# which are used in NMRL bioinformatics pipelines as singularity image files.
+# For detailed use instructions see README.md file in this repository.
+
+tools:
+- db_hash: null
+  db_ref: null
+  image_reference: conda_based
+  tool_hash: aa4a6491e567e8762cb27cada375047c2f914ae14dd58dc67b1f11c16233d3b2
+  tool_name: chewbbaca
+  tool_publication: null
+  tool_source: https://github.com/B-UMMI/chewBBACA
+  tool_version: 3.3.10
+- db_hash: null
+  db_ref: null
+  image_reference: conda_based
+  tool_hash: d1cc5774ad7f3ed403b26b25e040dd32260dfb3d2ebda0e0bdffa1767e894f73
+  tool_name: ectyper
+  tool_publication: null
+  tool_source: https://github.com/hulu/ectyper
+  tool_version: 2.0.0
+- db_hash: null
+  db_ref: null
+  image_reference: conda_based
+  tool_hash: 237d774cc5f5b415a315bd46d760e8bcc45d2a1c24e6027141d5c3a89fe24688
+  tool_name: fastp
+  tool_publication: null
+  tool_source: https://github.com/example/repo
+  tool_version: 0.24.0
+- db_hash: null
+  db_ref: null
+  image_reference: conda_based
+  tool_hash: 06598f95a9b564e95ffd210d428ca6eb504708ba7441ef036a4912fb31c2cdad
+  tool_name: hicap
+  tool_publication: null
+  tool_source: https://github.com/sahlenlab/HiCapTools
+  tool_version: 1.0.4
+- db_hash: null
+  db_ref: null
+  image_reference: conda_based
+  tool_hash: 152970041f07896e623bcb57b3d5721f041a75c9c2bcab42299a430a2528faaf
+  tool_name: kleborate
+  tool_publication: null
+  tool_source: https://github.com/klebgenomics/Kleborate
+  tool_version: 3.1.2
+- db_hash: null
+  db_ref: null
+  image_reference: conda_based
+  tool_hash: 2f8e3a889ab14bf942bd59ad4ff1b68eda0383b2990e278f8d4d73c6c0b7e113
+  tool_name: kraken2
+  tool_publication: null
+  tool_source: https://github.com/DerrickWood/kraken2
+  tool_version: 2.1.3
+- db_hash: null
+  db_ref: null
+  image_reference: conda_based
+  tool_hash: f2628e9e9b73ed4cb4a636cbc8b878dc66d4cc5e9da1b4dc6d72c1cb698dd28d
+  tool_name: mlst
+  tool_publication: null
+  tool_source: https://github.com/example/repo
+  tool_version: 2.23.0
+- db_hash: null
+  db_ref: null
+  image_reference: conda_based
+  tool_hash: 7e643c697c37b928dcffdb3cd7c6d97612cbccaef2b986ff592db2667ca70901
+  tool_name: mob
+  tool_publication: null
+  tool_source: https://github.com/remotemobprogramming/mob
+  tool_version: 3.1.9
+- db_hash: null
+  db_ref: null
+  image_reference: conda_based
+  tool_hash: 682fd2f9b9591d6da0f15462ef5225989f2f06b4a248b495499cbcb0e6ee0dab
+  tool_name: ncbi-amrfinderplus
+  tool_publication: null
+  tool_source: https://github.com/example/repo
+  tool_version: 4.0.3
+- db_hash: null
+  db_ref: null
+  image_reference: conda_based
+  tool_hash: d7b969192ba4284156cadc38ff0dc651bf437471dc26171c33d85ca702c92993
+  tool_name: quast
+  tool_publication: null
+  tool_source: https://github.com/ablab/quast
+  tool_version: 5.3.0
+- db_hash: null
+  db_ref: null
+  image_reference: conda_based
+  tool_hash: 2adf2b5d76448280f6abc2ac3e2dcb2cb4f60e6335f5dbc19f4a0a605c7138bb
+  tool_name: resfinder
+  tool_publication: null
+  tool_source: https://github.com/cadms/resfinder
+  tool_version: 4.6.0
+- db_hash: null
+  db_ref: null
+  image_reference: conda_based
+  tool_hash: 6c1c1d0608f77d35626e8db2c05594e169e6e16d49f7e4dcb8855f28c0380002
+  tool_name: seqsero2
+  tool_publication: null
+  tool_source: https://github.com/denglab/SeqSero2
+  tool_version: 1.3.1
+- db_hash: null
+  db_ref: null
+  image_reference: conda_based
+  tool_hash: df0bb0e4f56f6fa2b01d3d1f166c4e230f3717457ab0de04579551edfcd2e440
+  tool_name: sistr
+  tool_publication: null
+  tool_source: https://github.com/example/repo
+  tool_version: 1.1.3
+- db_hash: null
+  db_ref: null
+  image_reference: conda_based
+  tool_hash: 136a0e591fc25f424ba151d57fa19b29ea3acb74a0fcd28b081f94bb277132c7
+  tool_name: stecfinder
+  tool_publication: null
+  tool_source: https://github.com/LanLab/STECFinder
+  tool_version: 1.1.2
+- db_hash: null
+  db_ref: null
+  image_reference: conda_based
+  tool_hash: a68990e3c5945258e7aab3cea531e3cc9b2df66e205fff83d85df3967f273beb
+  tool_name: virulencefinder
+  tool_publication: null
+  tool_source: https://github.com/example/repo
+  tool_version: '2.0'

@@ -1,5 +1,4 @@
 # Custom artefacts
-singularity_recipes/*/*
 .secrets
 mamba_search_results.tsv
 tool_list.csv
