@@ -71,7 +71,7 @@ def update_tool_registry(singularity_recipes_path, tool_registry_path):
 
     header = '''
 # This file is used to capture state of external open-source dependencies,
-# which are used in NMRL bioinformatics pipelines as singularity image files.
+# which are used in bioinformatics pipelines as singularity image files.
 # For detailed use instructions see README.md file in this repository.
 
 ### Example
